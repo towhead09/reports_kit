@@ -147,7 +147,7 @@ module ReportsKit
         end
 
         def donut_or_pie_chart?
-          type.in?(%w(donut pie))
+          type.in?(%w(doughnut pie))
         end
       end
     end
